@@ -1,12 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 z-50 flex items-center gap-8 px-8 py-5">
-      <span
-        className="text-white tracking-widest text-sm uppercase"
-        style={{ fontFamily: "'Space Grotesk', sans-serif" }}
-      >
-        Isiah
-      </span>
+    <nav className="fixed top-0 left-0 z-50 flex w-full items-center gap-8 px-8 py-5 bg-black">
       <div className="flex items-center gap-6">
         <a
           href="#projects"
